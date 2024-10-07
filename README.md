@@ -28,11 +28,3 @@ The code utilizes lunar seismic data. If you want to use Martian data instead, y
 ## Directory Structure
 
 Make sure to place the `code.py` and `requirements.txt` files in the root of the `space_apps_2024_seismic_detection` directory for the installation process to work correctly.
-
-```
-space_apps_2024_seismic_detection/
-│
-├── requirements.txt
-├── your_code_files.py
-└── ...
-```

@@ -61,8 +61,6 @@ def create_mseed_dataset(catalog, data_directory):
     all_data = pd.DataFrame()
 
     for index, row in tqdm(catalog.iterrows(), total=catalog.shape[0], desc="Processing Miniseed files"):
-        if index >= 5:  # Limit to first 5 entries for testing
-            break
         filename = row['filename'] + '.mseed'
         time_abs = row['time_abs(%Y-%m-%dT%H:%M:%S.%f)']
         time_abs = datetime.strptime(time_abs, '%Y-%m-%dT%H:%M:%S.%f')

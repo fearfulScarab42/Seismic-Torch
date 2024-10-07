@@ -167,6 +167,12 @@ def process_test_mseed_files(data_directory, mseed_files, model):
 
 # Main execution
 if __name__ == "__main__":
+    """
+    Mars data paths
+    catalog_path = './data/mars/training/catalogs/Mars_InSight_training_catalog_final.csv'
+    data_directory = './data/mars/training/data/'
+    test_directory = './data/mars/test/data/'
+    """
     catalog_path = './data/lunar/training/catalogs/apollo12_catalog_GradeA_final.csv'
     data_directory = './data/lunar/training/data/S12_GradeA/'
     test_directory = './data/lunar/test/data/S15_GradeA/'

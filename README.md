@@ -7,12 +7,13 @@ This project is designed for seismic detection using machine learning techniques
 
 To set up this project, you need to install the required packages listed in the `requirements.txt` file. Follow these steps:
 
-1. Clone the repository or download the project files.
+1. Download and extract the zip files https://wufs.wustl.edu/SpaceApps/data/space_apps_2024_seismic_detection.zip.
 2. Navigate to the project directory:
    ```bash
    cd path/to/space_apps_2024_seismic_detection
    ```
-3. Install the required packages using pip:
+3. Clone the repository or download the project files.
+4. Install the required packages using pip:
    ```bash
    pip install -r requirements.txt
    ```

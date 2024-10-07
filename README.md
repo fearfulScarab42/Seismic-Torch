@@ -18,7 +18,7 @@ To set up this project, you need to install the required packages listed in the 
    ```
 
 ### Note:
-- Ensure that you have Python 3.6 or later installed on your system.
+- Ensure that you have Python 3.10 or later installed on your system.
 - This project uses `torch`, so you may also need to install the appropriate version of CUDA if you intend to run the model on a GPU.
 
 ## Data Information
